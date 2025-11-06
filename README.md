@@ -28,3 +28,4 @@ In hybrid operating mode (i.e., using both the external and the internal magnet)
 ## References
 
 [1] Yu, Cecile X., et al. "Optimising germanium hole spin qubits with a room-temperature magnet." arXiv preprint arXiv:2507.03390 (2025).
+
