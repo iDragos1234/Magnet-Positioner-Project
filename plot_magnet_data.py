@@ -9,7 +9,7 @@ df = read_csv(r'./magnet_data/magnet_x-axis_measurement_data.csv')
 df = df[['Magnet-sensor distance [cm]', r'By[mT]']]
 # Group by distance
 df = df.groupby(['Magnet-sensor distance [cm]'])
-# Compute mean B field at each distance. Take the absolute value.
+# Compute absolute value of mean B field at each distance
 means = df.mean().abs()
 
 # Plot
